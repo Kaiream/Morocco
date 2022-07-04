@@ -1,0 +1,351 @@
+body,div {
+	cursor: default;
+}
+
+div.polozky-obal {
+	float: left;
+	margin: 0px 2px 7px 5px;
+	width: 500px;
+	position: relative;
+}
+
+div.polozky-obr {
+	width: 64px;
+	float: left;
+	margin: 0 8px;
+	cursor: default;
+}
+
+div.prostor-ikona {
+	margin: 0px 0px 0px 80px;
+}
+
+div.prostor-neikona {
+	margin: 0px 0px 0px 10px;
+}
+
+div.polozky {
+	padding: 0 5px;
+	cursor: default;
+}
+
+div.menu-drzak {
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 33px;
+	cursor: move;
+}
+
+.polozky > ul { 
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.polozky > span.sekce-nadpis {
+	color: white;
+}
+
+.polozka-hidden {
+	display: none; 
+}
+
+div.ramecek-boky {
+	border-left: 1px solid #9e9e9e;
+	border-right: 1px solid #9e9e9e;
+	background: url(/img.pl?sysid=sekce-bg) top left repeat-x;
+	position: relative;
+	cursor: default;
+}
+
+div.ramecek-nahore {
+	background: url(/img.pl?sysid=sekce-h) top left repeat-x;
+	height: 10px;
+	margin: 0 10px;
+}
+
+div.ramecek-nahore-1 {
+	background: url(/img.pl?sysid=sekce-lhr) no-repeat;
+	margin: 0 0 0 -10px;
+	width: 10px;
+	height: 10px;
+	float: left;
+}
+
+div.ramecek-nahore-2 {
+	background: url(/img.pl?sysid=sekce-phr) no-repeat;
+	margin: 0 -10px 0 0;
+	width:10px;
+	height: 10px;
+	float: right;
+}
+
+div.ramecek-dole {
+	background: url(/img.pl?sysid=sekce-d) bottom left repeat-x;
+	height: 10px;
+	margin: 0 10px;
+	cursor: default;
+}
+
+div.ramecek-dole-4 {
+	background: url(/img.pl?sysid=sekce-ldr) no-repeat;
+	margin: 0 0 0 -10px; width: 10px;
+	height: 10px;
+	float: left;
+	cursor: default;
+}
+
+div.ramecek-dole-3 {
+	background: url(/img.pl?sysid=sekce-pdr) no-repeat;
+	margin: 0 -10px 0 0;
+	width: 10px;
+	height: 10px;
+	float: right;
+	cursor: default;
+}
+
+.cleaner {
+	float: left;
+	width: 100%;
+	height: 1px;
+	margin: -1px 0 0 0;
+	padding: 0;
+	border: none;
+	visibility: hidden;
+}
+
+hr.clearer {
+	height: 100%;
+	clear: both;
+	height: 1px;
+	margin: -1px 0 0 0;
+	padding: 0;
+	border: none;
+	visibility: hidden;
+}
+
+div.sekce-drive {
+	bottom: -5px;
+	right: 5px;
+	position: absolute;
+}
+
+div.menusectionclose {
+	position: absolute;
+	top: -2px;
+	right: 5px;
+	display: none;
+	z-index: 2;
+	cursor: hand;
+}
+
+div.menusectionsetup {
+	position: absolute;
+	top: -2px;
+	right: 28px;
+	display: none;
+	z-index: 2;
+	cursor: hand;
+}
+
+div.show-over div.menusectionclose {
+	display: inline;
+}
+
+div.show-over div.menusectionsetup {
+	display: inline;
+}
+
+div.menitko-all {
+	float: right;
+	margin: 3px;
+	text-align: right;
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 100%;
+}
+
+div.menitko-all span {
+	margin-left: 20px;
+}
+
+#zavrit-vse {
+	display: none;
+}
+
+#finder {
+	display: none;
+}
+
+div.closed-section{                                                                                                                                          
+	float:left;                                                                                                                                          
+	padding:10px;                                                                                                                                         
+	text-align:center;                                                                                                                                   
+	width:110px;                                                                                                                                         
+}
+
+.menusectionup {
+	display: none;
+}
+
+.ui-draggable {
+	cursor: move;
+}
+
+.ui-draggable-dragging {
+	background-color: white;
+}
+
+.section-droppable {
+	background-color: #cccccc;
+}
+
+#jquery-overlay {
+	background-color: #222222;
+	opacity: .8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha (opacity = 80);
+	left: 0px;
+	top: 0px;
+	z-index: 1500;
+	position: absolute;
+	width: 100%;
+	height: 2000px;
+}
+
+#finder-window {
+	background-color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+	width: 400px;
+	height: 300px;
+	z-index: 1501;
+	position: absolute;
+	text-align: left;
+	color:black;
+}
+
+#finder-internal {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 30px;
+}
+
+#finder-internal #lupa {
+	float: right;
+	margin-left: 10px;
+}
+
+#finder-internal #nadpis {
+	font-weight: bold;
+	position: relative;
+	text-color: black;
+	font-size: 150%;
+}
+
+#finder-internal #hledani {
+	position: relative;
+	top: 20px;
+	width: 280px;
+	z-index: 1502;
+}
+
+#finder-internal #cond {
+	position: relative;
+	top: 40px;
+	width: 280px;
+	z-index: 1502;
+}
+
+#finder-window + ul {
+    border-color: black;
+    background: white !important;
+    list-style: none !important;
+	z-index: 99999;
+    color: black;
+    max-height: 190px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#finder-window + ul li {
+    list-style: none !important;
+    background: none !important;
+	border: none !important;
+    background-position: 0 0;
+    font-size: 12px;
+    font: menu;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#finder-window + ul li:nth-child(odd) {
+	background-color: #e4e4e4 !important;
+}
+
+#finder-window + ul li div.ui-state-active {
+    background: none;
+    font-weight: normal;
+	color: white !important;
+	background-color: #0A246A !important;
+}
+
+#finder-window + ul li div {
+    padding: 2px 5px;
+}
+
+.ac_results {
+	position: relative;
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+	color: black;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/*width: 100%;*/			/* 100% means horizontal scrollbar */
+	font: menu;
+	font-size: 12px;
+	line-height: 16px;			/* in px for FireFox */
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url( '/img.pl?sysid=in-progress' ) right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #e4e4e4;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+
+.ac_results li {
+	background-image: none;
+}
+
+.menitko-ie10 {
+	width: 98% !important;
+}
